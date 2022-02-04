@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "grpc-device-example-template"
+version = "0.1.0"
+description = ""
+authors = ["Alex Starche <alex.starche@ni.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7.9"
+grpcio = "^1.43.0"
+grpcio-tools = "^1.43.0"
+click = "^8.0.3"
+
+[tool.poetry.dev-dependencies]
+mypy-protobuf = "^3.2.0"
+types-protobuf = "^3.19.8"
+grpc-stubs = "^1.24.7"
+black = "^22.1.0"
+mypy = "^0.931"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
